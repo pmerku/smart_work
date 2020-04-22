@@ -1,0 +1,16 @@
+version: "3.4"
+services:
+  python:
+    container_name: python
+    image: pmerku/python
+    build:
+      context: ./python
+      target: dev
+  clang:
+    container_name: clang
+    image: pmerku/clang
+    build:
+      context: ./clang
+      target: dev
+
+
