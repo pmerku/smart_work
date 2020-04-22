@@ -8,7 +8,7 @@ Make sure you have `docker cli` and `docker-compose` installed.
 Please run the following:
 
 ```
-git clone git://pmerku/smart_work.git ~/smart_work
+git clone git://github.com/pmerku/smart_work.git ~/smart_work
 cd ~/smart_work
 docker-compose build
 ```
