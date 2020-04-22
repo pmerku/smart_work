@@ -20,7 +20,6 @@ The images are now build and you can use them with these commands in your projec
 ```
 docker run -it --rm --init -v "$PWD:/pwd" pmerku/clang sh -c "cd /pwd; zsh"
 docker run -it --rm --init -v "$PWD:/pwd" pmerku/python sh -c "cd /pwd; zsh"
-docker run -it --rm --init -v "$PWD:/pwd" pmerku/csharp sh -c "cd /pwd; zsh"
 ```
 
 ### Content
